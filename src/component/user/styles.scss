@@ -1,0 +1,31 @@
+.user-info {
+    .user-title {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+
+        button {
+            &:first-child {
+                right: 120px;
+            }
+            &:last-child {
+                right: 20px;
+            }
+            position: absolute;
+        }
+    }
+
+    .user-areaCost {
+        .areaCost {
+            button {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .priceCost {
+        button{
+            margin-left: 20px;
+        }
+    }
+}
